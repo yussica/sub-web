@@ -258,6 +258,55 @@ export default {
         backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
           {
+            label: "nameless13",
+            options: [
+              {
+                label: "Full",
+                value: "https://raw.githubusercontent.com/tindy2013/subconverter/master/base/config/ACL4SSR_Online_Full.ini"
+              },
+              {
+                label: "多策略组默认白名单模式",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/white.ini"
+              },
+              {
+                label: "多策略组默认白名单模式禁用quic需最新clash闭源核心",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/nfbancdnquic.ini"
+              },
+              {
+                label: "多策略组默认黑名单模式可以有效减少审计触发",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/mayinggfw.ini"
+              },
+              {
+                label: "精简策略默认白名单",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/easy3.ini"
+              },
+              {
+                label: "多策略白名单模式下增加SMTP(包含emby)策略",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/youtube.ini"
+              },
+              {
+                label: "无策略入门推荐",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/easy.ini"
+              },
+              {
+                label: "无策略入门推荐国家分组",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/easy2.ini"
+              },
+              {
+                label: "Special(无策略仅IPIP CN + Final)",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/ipip.ini"
+              },
+              {
+                label: "无策略魅影vip分组",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/MAYINGVIP.ini"
+              },
+              {
+                label: "ACL4SSR去广告Online_Full_NoAuto",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/configs/acl4ssr.ini"
+              }
+            ]
+          },
+          {
             label: "universal",
             options: [
               {
