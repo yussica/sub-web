@@ -266,43 +266,43 @@ export default {
               },
               {
                 label: "多策略组默认白名单模式",
-                value: "/configs/white.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/white.ini"
               },
               {
                 label: "多策略组默认白名单模式禁用quic需最新clash闭源核心",
-                value: "/configs/nfbancdnquic.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/nfbancdnquic.ini"
               },
               {
                 label: "多策略组默认黑名单模式可以有效减少审计触发",
-                value: "/configs/mayinggfw.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/mayinggfw.ini"
               },
               {
                 label: "精简策略默认白名单",
-                value: "/configs/easy3.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/easy3.ini"
               },
               {
                 label: "多策略白名单模式下增加SMTP(包含emby)策略",
-                value: "/configs/youtube.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/youtube.ini"
               },
               {
                 label: "无策略入门推荐",
-                value: "/configs/easy.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/easy.ini"
               },
               {
                 label: "无策略入门推荐国家分组",
-                value: "/configs/easy2.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/easy2.ini"
               },
               {
                 label: "Special(无策略仅IPIP CN + Final)",
-                value: "/configs/ipip.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/ipip.ini"
               },
               {
                 label: "无策略魅影vip分组",
-                value: "/configs/MAYINGVIP.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/MAYINGVIP.ini"
               },
               {
                 label: "ACL4SSR去广告Online_Full_NoAuto",
-                value: "/configs/acl4ssr.ini"
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/acl4ssr.ini"
               }
             ]
           },
