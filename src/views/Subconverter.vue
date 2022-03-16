@@ -261,6 +261,9 @@ export default {
             label: "nameless13",
             options: [
               {
+                label: "yussica",
+                value: "https://raw.githubusercontent.com/yussica/sub-web/master/public/configs/yussica.ini"
+              },{
                 label: "Full",
                 value: "https://raw.githubusercontent.com/tindy2013/subconverter/master/base/config/ACL4SSR_Online_Full.ini"
               },
