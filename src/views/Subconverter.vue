@@ -437,7 +437,7 @@ export default {
     // 获取 url cache
     if (process.env.VUE_APP_USE_STORAGE === 'true') {
       if (this.getLocalStorageItem('sourceSubUrl') === '') {
-        this.form.sourceSubUrl = "https://sub.ssr.sh/link/7TFpRinFywlmXoqV?mu=1\nhttps://naixisubs.com/downloadConfig/Clash.aspx?eq=windows&urk=48111fe7-84af-4937-82ad-3bf0f8bd87ab"
+        this.form.sourceSubUrl = ""
       } else {
         this.form.sourceSubUrl = this.getLocalStorageItem('sourceSubUrl')
       }
